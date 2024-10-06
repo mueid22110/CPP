@@ -1,0 +1,150 @@
+1.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+  cout <<  21 + 40 ; //Replace the _ with the correct value
+
+  return 0;
+}
+
+2.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  int length = 11;
+  // Update your code below this line
+  int remainder = length % 3;
+  cout << remainder;
+  
+}
+
+3.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    string fruit = "Apple";
+    cout << fruit << endl;
+
+
+  
+}
+
+4.
+// update the code  to print Hello World
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main () {
+    string x = "Hello";
+    string y = "World";
+    cout<< x + " " + y;
+  
+}
+
+5.
+
+//We need to output 2569 using string concatenation.
+//The code below is incorrect - Debug the code to solve the problem
+
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main () {
+
+  string num1 = "25";
+  string num2 = "69";
+  cout << num1 + num2;
+
+  
+}
+
+6.
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+
+    string text = "Programming";
+    cout << "The length of the word is: " << text.length();
+}
+
+7.
+
+// replace the underscores ( _ ) with correct index numbers
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+
+    string word = "Programming";
+    cout << word[2] << " " << word[1];
+    return 0;
+}
+
+8.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int a;
+    cin >> a;	//cin syntax is used to take input 
+    cout << "Your number is: " << a;
+}
+
+9.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int a, b, c;
+    
+    cin >> a >> b >> c;
+    cout << a + b + c << endl;
+}
+
+10.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    // Complete the code as per given instructions on the left
+    int a, b;
+    
+    cin >> a >> b ;
+    int sum = a + b;
+    int diff = a - b;
+    
+     
+    cout << "Sum is: " << sum << endl;
+    cout << "Difference is: "<< diff << endl;
+}
+
+11.
+
+// Complete the code below
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  string x;
+  cin >> x;
+  cout << "Hello " << x;
+}
+
+12.
+
