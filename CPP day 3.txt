@@ -1,0 +1,88 @@
+1.
+//Remove _ and complete the code
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int a;
+    int b;
+    cin >> a;
+    cin >> b;
+    if ( a > b ) {
+        cout << "Coding is Fun!";
+    }
+}
+2.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    int Age;
+    cin >> Age;
+    int Vage = 18;
+    if (Age < Vage) {
+     //Insert {} before and after cout command
+        cout << "Not old enough to vote." << endl;
+        cout << "Wait for " << (Vage - Age) << " years";
+       
+    }else{
+        cout << "Old enough to vote!";
+    }
+        
+
+}
+3.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    int age;
+    cin >> age;
+    int voting_age = 18;
+    
+    if (age >= voting_age) {
+        cout << "Old enough to vote!";
+    } else {
+        cout << "Not old enough to vote.";
+    }
+}
+4.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+  int r;
+  int b;
+  cin >> r >> b;
+  if (r > b) {
+    cout << "Rob Scored higher marks than Bob" << endl;
+  } else if (b == r) {
+    cout << "Bob & Rob both scored the same" << endl;
+  }
+}
+5.
+// Remove the underscores (__) and complete the code
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+
+    int r;
+    int k;
+    cin >> r;
+    cin >> k;
+    if(r > k) {
+        cout << "Ram is heavier than Karan." << endl;
+    }
+    else if (r < k) {
+        cout << "Karan is heavier than Ram" << endl;
+    }
+    else {
+        cout << "Ram & Karan have the same weight!" << endl;
+    }
+}
+6.
