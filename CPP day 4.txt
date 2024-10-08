@@ -1,88 +1,91 @@
 1.
-//Remove _ and complete the code
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int main() {
-    int a;
-    int b;
-    cin >> a;
-    cin >> b;
-    if ( a > b ) {
-        cout << "Coding is Fun!";
-    }
+int main()
+{
+    int a = 5;
+    int b = 3;
+    cout << a * b;
 }
+
 2.
-#include <bits/stdc++.h>
+// Debug the code to solve this problem
+
+#include <iostream>
 using namespace std;
 
-int main() {
-
-    int Age;
-    cin >> Age;
-    int Vage = 18;
-    if (Age < Vage) {
-     //Insert {} before and after cout command
-        cout << "Not old enough to vote." << endl;
-        cout << "Wait for " << (Vage - Age) << " years";
-       
-    }else{
-        cout << "Old enough to vote!";
+int main()
+{
+    int n;
+    n = 5;
+    if (n % 2 == 1)
+    {
+        cout << "Odd";
     }
-        
-
+    else
+    {
+        cout << "Even";
+    }
 }
 3.
-#include <bits/stdc++.h>
+//uncomment the if condition
+#include <iostream>
+
 using namespace std;
-
-int main() {
-
-    int age;
-    cin >> age;
-    int voting_age = 18;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
     
-    if (age >= voting_age) {
-        cout << "Old enough to vote!";
-    } else {
-        cout << "Not old enough to vote.";
-    }
-}
-4.
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-
-  int r;
-  int b;
-  cin >> r >> b;
-  if (r > b) {
-    cout << "Rob Scored higher marks than Bob" << endl;
-  } else if (b == r) {
-    cout << "Bob & Rob both scored the same" << endl;
-  }
-}
-5.
-// Remove the underscores (__) and complete the code
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-
-    int r;
-    int k;
-    cin >> r;
-    cin >> k;
-    if(r > k) {
-        cout << "Ram is heavier than Karan." << endl;
-    }
-    else if (r < k) {
-        cout << "Karan is heavier than Ram" << endl;
+    if(b==0) {
+       cout<<"infinity\n";
     }
     else {
-        cout << "Ram & Karan have the same weight!" << endl;
+        cout<<a/b<<"\n";
     }
+    
+}
+4.
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int arr[5] = {1,2,3,4,5}; // array initialization
+    cout<<arr[0];              // accessing first element of array it prints 1 
+    cout<<arr[-1];             // negative position of array doesn't exist so it will give you runtime error
+    cout<<arr[5];             // this position of array does not exist because position ranges from 0 to (length of array)-1   
+}
+5.
+//if condition is wrong it should be changed to n>5
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    if(n>5)
+    {
+        cout<<"the number is greater than 5";
+    }
+    else
+    {
+        cout<<"the number is smaller than or equal to 5";
+    }
+
+    
 }
 6.
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string s;
+    cin>>s; // input string
+    cout<<s[0]<<s[3]<<s[5]<<"\n";
+    
+}
+7. 
