@@ -1,0 +1,59 @@
+1. 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+  int num[5] = {1, 2, 3, 4 ,5 };
+  cout << "Done";
+
+  
+}
+2.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+  int num[ 5 ] = {1, 2, 3, 4, 5 };
+  cout << num[2]; // printing the third element of an array
+
+  
+}
+3.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+  string mnts[4] = {"Jan", "Feb", " Dec", "Apr"};
+  mnts[ 2 ] = "Mar"; // replacing the third string element
+  cout << mnts[2];
+
+  
+}
+4.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+  string week[4] = {"Monday", "Tuesday", "Wednesday", "Thursday"};
+  cout << week[ 2 ] << endl;
+  cout << week[ 3 ];
+  // printing the last two elements of a string
+
+  
+}
+5.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int num[] = {10, 20, 30, 40, 50, 60};
+    cout << sizeof(num) / sizeof(num[0]);
+
+
+
+  
+}
