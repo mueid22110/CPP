@@ -1,0 +1,175 @@
+1.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	
+    int t = 3;
+    while (t--){
+        int A, B, sum, sq;
+	cin >> A >> B;
+	
+	sum = A + B;
+	sq = sum * sum;
+	
+	cout << sq << endl << sum << endl;
+
+    }
+}
+2.
+#include <iostream>
+using namespace std;
+
+// Function to calculate C
+int calculateC(int A, int B) {
+    return A * A + 2 * A * B + B * B;
+}
+
+// Function to calculate D
+int calculateD(int A, int B) {
+    return A + B;
+}
+
+int main() {
+    // Repeat the input, calculation, and output process thrice
+    int t = 3;
+    while(t--) {
+        int A, B;
+        cin >> A >> B;
+        
+        // Use functions to calculate C and D
+        int C = calculateC(A, B);
+        int D = calculateD(A, B);
+        
+        cout << C << endl;
+        cout << D << endl;
+    }
+    
+    
+}
+3.
+#include <iostream>
+using namespace std;
+
+// User-defined function to generate and print a list of numbers from 1 to limit
+void list_generator(int limit) {
+    // Update the code below to solve the problem
+    int i = 1;
+    while(i <= limit){
+        cout << i << " ";
+        i++;
+    }
+    
+    cout << endl;
+    
+}
+
+// Do not update the code below this line
+
+int main() {
+    int A, B;
+    cin >> A >> B;
+
+    list_generator(A);
+    list_generator(B);
+
+    
+}
+4.
+#include <bits/stdc++.h>
+using namespace std;
+
+int sum(int a, int b) {
+    // Solution
+    int result = a + b;
+    return result;
+}
+
+int square(int a, int b) {
+    // Solution
+    int result = pow(a, 2) + 2 * a * b + pow(b, 2);
+    return result;
+}
+
+int main() {
+    int t = 3;
+    while (t--) {
+        int A, B;
+        cin >> A >> B;
+        cout << square(A, B) << endl << sum(A, B) << endl;
+    }
+    
+}
+5.
+#include <iostream>
+using namespace std;
+
+// Define the greet function
+void greet(string name) {
+    cout << "Hello, " << name << "!" << endl;
+}
+
+int main() {
+    // Define the name variable and call the greet function
+    string name = "Alice";
+    greet(name);
+    
+    
+}
+6.
+#include <iostream>
+using namespace std;
+
+// Global variable
+int globalVar = 10;
+
+void displayScopes() {
+    // Local variable
+    int localVar = 20;
+
+    // Accessing and printing both the global variable and local variable
+    cout << localVar << endl;   // Should print 20
+    cout << globalVar << endl; // Should print 10
+}
+
+int main() {
+    // Calling the function
+    displayScopes();
+
+    // Accessing and printing the global variable
+    // cout << globalVar << endl; // Should print 10
+
+    // Trying to access the local variable here would cause an error as it's out of scope
+    // cout << localVar << endl; // Uncommenting this line would cause a compilation error
+}
+7.
+#include <iostream>
+#include <string>  // For using string functions
+#include <algorithm>  // For using transform function
+using namespace std;
+
+// Function to print the greeting
+void printGreeting(const string& name) {
+
+    // Convert the greeting to uppercase
+    string upperGreeting = "Hello, " + name + "!";
+
+    // converts the string to uppercase
+    transform(upperGreeting.begin(), upperGreeting.end(), upperGreeting.begin(), ::toupper);
+
+    // Print the final result
+    cout << "Final Result: " << upperGreeting << endl;
+
+}
+
+int main() {
+    // The name to be used in the greeting
+    string name = "Alice";
+    
+    printGreeting(name);
+
+
+    
+}
+8.
