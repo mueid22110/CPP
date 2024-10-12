@@ -1,0 +1,58 @@
+1.
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 40;  // Declare and initialize an integer variable
+    int *p;      // Declare a pointer to an integer
+    p = &x;    // Initialize the pointer with the address of 'num'
+    cout << p; // Print the memory location of variable 'x'
+    
+    return 0;
+}
+2.
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 40;     // Declare and initialize an integer variable
+    int *p = &x;  // Declare and initialize a pointer to the address of 'x'
+    
+    cout << *p << endl; // Print the value stored at the address in the pointer
+    
+    return 0;
+}
+3.
+// Complete the code
+
+#include <iostream>
+using namespace std;
+
+void printValue(int *ptr) {
+    if(ptr != nullptr) {
+        cout << "Value: " << *ptr << endl;
+    } else {
+        cout << "Pointer is null" << endl;
+    }
+}
+
+int main() {
+    int *number = nullptr; // Pointer is null initially
+    printValue(number); // This should print the value pointed to by the pointer
+    return 0;
+}
+4.
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numbers[] = {10, 20, 30, 40, 50};
+    int *ptr = numbers; // Pointer to the first element
+
+    for (int i = 0; i < 5; i++) {
+        cout << *ptr << endl;
+        ptr++; // Move the pointer to the next element
+    }
+
+    return 0;
+}

@@ -172,4 +172,123 @@ int main() {
 
     
 }
+
+
+Predefined functions
+Predefined functions in C++, also known as built-in functions or standard library functions, are functions that are already provided by the C++ programming language itself or by standard libraries.
+Predefined functions are ready to use and can be directly incorporated into your C++ programs without needing to create their definitions.
+
+Here are some common categories of predefined functions in C++.
+
+Input/Output Functions:
+You would have to include iostream package to use these functions cout: Used to print formatted output to the console.
+cin: Used to read formatted input from the console.
+setprecision : Used to set the ios library floating point precision based on the precision specified as the parameter to this method.
+
+Mathematical Functions:
+You would have to include cmath package to use these functions sqrt(): Calculates the square root of a number.
+abs(): Calculates the absolute value of a number.
+pow(): Calculates the power of a number.
+ceil(), floor(): Round a number to the nearest integer.
+
+Memory operators:
+new : Allocate memory dynamically.
+delete : Deallocate memory.
+
+Time Functions:
+time(): Get the current time.
+ctime(): Convert time to a string.
+difftime(): Calculate the difference between two times.
+
+File Handling Functions:
+fopen(), fclose(): Open and close files.
+fread(), fwrite(): Read and write data from/to files.
+
+Dont worry about all these functions - you will learn about them at a later point in the course.
+For now - let's focus on mathematical functions.
+
 8.
+#include<bits/stdc++.h>
+using namespace std;
+// complete the function below to calculcate (a + b)^2
+inline int abSquared(int a, int b){
+    return pow(a + b, 2);
+}
+int main(){
+    int a, b;
+    cin >> a >> b;
+    int expression_value = abSquared(a, b);
+    std::cout << expression_value << std::endl;
+}
+9.
+#include <bits/stdc++.h>
+using namespace std;
+
+// Function to calculate the area of a square
+int area(int side) {
+    // Complete the function
+    return side * side;
+} 
+
+// Overloaded function to calculate the surface area of a cube
+int area(int side, bool isCube) {
+    // Complete the function
+    if (isCube) {
+        side = side * side * 6;
+    }
+    return side;
+}
+
+// Overloaded function to calculate the area of a circle
+double area(double radius) {
+    // Complete the function
+    return 3.14159 * radius * radius;
+}
+
+int main() {
+    int a, b;
+    double r;
+
+    cin >> a;
+
+    cin >> b;
+
+    cin >> r;
+
+    cout << area(a) << endl;
+    cout << area(b, true) << endl;
+    cout << area(r) << endl;
+
+    return 0;
+}
+10.
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double X = 53.56;
+    double Y = 3;
+    int A = 45;
+    int B = 20;
+   
+    // Output the absolute value of the difference of A and B
+    cout << abs(A - B) << "\n";
+
+    // Output the remainder when A is divided by B
+    cout << A % B << "\n";
+
+    //computing the rounded off number upwards to its nearest integer and printing it
+    cout << ceil(X) << "\n";
+   
+    //computing the rounded off number downwards to its nearest integer and printing it
+    cout << floor(X) << "\n";
+
+    //computing the value of X to the power of Y and printing it
+    cout << pow(X,Y) << "\n";
+
+    
+}
+11.
+
