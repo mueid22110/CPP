@@ -1,0 +1,11 @@
+1.
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	string s = "Learn Coding on CodeChef";
+	cout << s << endl;
+	
+}
+2.
