@@ -1,0 +1,49 @@
+1.
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int a = 9, b = 12, mul = a * b;
+    cout << mul << endl;
+  return 0;
+}
+2.
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	string s = "Practice Coding on CodeChef";
+	cout << s << endl;
+	
+}
+3.
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "I" << endl << "love" << endl << "to learn code and practice";
+
+    return 0;
+}
+4.
+ #include <iostream>
+using namespace std;
+
+int main() {
+    for(int i=1; i<=5;i++){
+        cout << i << " - " << i* i << endl;
+        
+    }
+
+}
+5.
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a=8, b=4;
+    cout << a+b << endl << a-b << endl << a/b << endl << a*b << endl ;
+}
+6.
