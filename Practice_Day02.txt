@@ -1,0 +1,37 @@
+1.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int a = 20, b = 6;
+    cout << a/b << endl;
+
+    return 0;
+}
+2.
+#include <iostream>
+using namespace std;
+
+int main() {
+	float temperature = 25.5;
+	cout << "Celsius - "<<temperature<<endl<<"Kelvin - "<<temperature + 273<<endl;
+
+}
+3.
+#include <iostream>
+using namespace std;
+
+int main() {
+    int hour = 5;
+    cout << hour*60 << endl << hour*3600<<endl;
+
+}
+4.
+#include <iostream>
+using namespace std;
+
+int main() {
+	int speed1 = 36;
+	cout<< 5*speed1/18<<endl;
+
+}
